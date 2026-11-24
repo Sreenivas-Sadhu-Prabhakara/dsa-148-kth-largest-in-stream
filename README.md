@@ -12,6 +12,13 @@ Same invariant as #070 — a min-heap holding exactly the k largest values seen,
 
 **Complexity:** Add O(log k), O(k) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
